@@ -1,3 +1,7 @@
+* {
+  transition: 0.5s;
+}
+
 .App {
   text-align: center;
 }
@@ -28,10 +32,78 @@
   color: #61dafb;
 }
 
+.MajorChord, .MinorChord {
+  stroke-width: 0px;
+  stroke: white;
+}
+
+.MajorChord:hover, .MinorChord:hover {
+  stroke-width: 10px;
+}
+
+.MajorChord:active, .MinorChord:active {
+  stroke-width: 20px;
+}
+
+
+.TriangleRow {
+  display: flex;
+  width: 80vw;
+  height: 6vw;
+  align-items: center;
+  justify-content: center;
+  -border: 1px solid black;
+
+}
+
+.RowElems {
+  overflow: visible;
+  width: 80vw;
+  height: 8vw;
+  -border: 1px solid red;
+}
+
+.Triangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.noteText {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#div1 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 140vw;
+  height: 100vh;
+}
+
+#div2 {
+  -border: 1px solid black;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
