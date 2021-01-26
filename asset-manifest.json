@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Tonnetz/static/css/main.0e3e546a.chunk.css",
+    "main.js": "/Tonnetz/static/js/main.9de8a17c.chunk.js",
+    "main.js.map": "/Tonnetz/static/js/main.9de8a17c.chunk.js.map",
+    "runtime-main.js": "/Tonnetz/static/js/runtime-main.7a37bfab.js",
+    "runtime-main.js.map": "/Tonnetz/static/js/runtime-main.7a37bfab.js.map",
+    "static/js/2.80239260.chunk.js": "/Tonnetz/static/js/2.80239260.chunk.js",
+    "static/js/2.80239260.chunk.js.map": "/Tonnetz/static/js/2.80239260.chunk.js.map",
+    "static/js/3.4229ea4d.chunk.js": "/Tonnetz/static/js/3.4229ea4d.chunk.js",
+    "static/js/3.4229ea4d.chunk.js.map": "/Tonnetz/static/js/3.4229ea4d.chunk.js.map",
+    "index.html": "/Tonnetz/index.html",
+    "static/css/main.0e3e546a.chunk.css.map": "/Tonnetz/static/css/main.0e3e546a.chunk.css.map",
+    "static/js/2.80239260.chunk.js.LICENSE.txt": "/Tonnetz/static/js/2.80239260.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a37bfab.js",
+    "static/js/2.80239260.chunk.js",
+    "static/css/main.0e3e546a.chunk.css",
+    "static/js/main.9de8a17c.chunk.js"
+  ]
+}
